@@ -43,7 +43,7 @@ exports.getBarangs =async(req,res) => {
                 exclude:["createdAt","updatedAt"]
             }      
         },
-         order: [['updatedAt', 'DESC']]  
+         order: [['createdAt', 'DESC']]  
          
            
        })
